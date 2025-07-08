@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>401 Autorización Requerida</TITLE>
+
+<!-- Estilo css -->
+<link rel="stylesheet" href="/public/Assets/CSS/errores/errores.css">
+
+<link rel="icon" href="/public/Assets/Imagenes/logo.png" type="image/png">
+</HEAD><BODY>
+    <main>
+        <H1><span>Error 401</span> <br> Autorización Requerida</H1>
+        <img src="/public/Assets/Imagenes/logo.png">
+        <p>Este servidor no pudo verificar que estés autorizado para acceder al documento solicitado.</p>
+    </main>
+    <footer>
+        <a href="https://agrotecnica717.edu.ar">agrotecnica717.edu.ar</a>
+    </footer>
+</BODY></HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

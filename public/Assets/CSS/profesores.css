@@ -1,0 +1,19 @@
+#calendario-contenedor {
+    overflow: scroll;
+}
+
+#fecha-columna {
+    color: rgb(142, 142, 220);
+}
+
+#fecha-nombre-columna {
+    color: rgb(142, 142, 220);
+}
+
+.pr-hora-columna {
+    color: rgb(139, 109, 0);
+}
+
+.pr-dia-columna {
+    color: blue
+}

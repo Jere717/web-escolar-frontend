@@ -1,0 +1,97 @@
+/* # main */
+
+
+
+/* # fin main */
+
+/* # footer */
+
+
+
+/* # fin footer */
+
+/* # grid */
+
+/* ! responsive = celulares pequeños */
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = clelulares normales */
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas chicas */
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = laptops */
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes */
+
+@media screen and (min-width: 1025px) and (max-width: 1328px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1329px) and (max-width: 3840px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 2560px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* # fin grid */

@@ -1,0 +1,134 @@
+/* # main */
+
+
+
+/* # fin main */
+
+#organigramas {
+  width: 100%;
+}
+
+#carouselExampleInterval img {
+  width: 50%;
+  min-height: 25rem;
+  min-width: 20rem;
+  margin: auto;
+  max-height: 10rem;
+  max-width: 40rem;
+}
+
+.slide img {
+  object-fit: contain;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: 10px solid #000000;
+}
+
+/* # footer */
+
+
+
+/* # fin footer */
+
+/* # grid */
+
+/* ! responsive = celulares pequeños */
+
+@media screen and (min-width: 0px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = clelulares normales */
+
+@media screen and (min-width: 375px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = tablets */
+
+@media screen and (min-width: 481px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas chicas */
+
+@media screen and (min-width: 769px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = laptops */
+
+@media screen and (min-width: 861px) {
+
+  .navbar .grupo-2 {
+    display: grid;
+    grid-template-columns: 6fr 8fr 6fr;
+    align-items: center;
+    gap: 5%;
+  }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes */
+
+@media screen and (min-width: 1024px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1329px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1900px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 2560px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* # fin grid */

@@ -1,0 +1,122 @@
+#boton_eliminar {
+    border-radius: 10px;
+}
+
+#boton-profesor-reservar {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foto_de_perfil_show {
+    width: 40%;
+    margin: auto;
+    /* border-bottom: 1px solid #535353; */
+    border-radius: 50%;
+}
+
+.card-body-tabla {
+    overflow: scroll;
+}
+
+#tabla-estudiantes {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.row-table {
+    text-align: center;
+}
+
+.form-modos button {
+    border-radius: 1rem;
+    background-color: rgb(33, 30, 30);
+    border: solid 0.1rem rgb(37, 87, 174);
+}
+
+.descripcion {
+    color: rgb(37, 87, 174);
+}
+
+#mantenimiento button {
+    color: rgb(121, 235, 6);
+}
+
+#desactivar_mantenimiento button {
+    color: rgb(255, 42, 0);
+}
+
+/* Estilos contenido */
+
+.inner-estudiantes-registrados {
+    background-color: burlywood;
+}
+
+/* Estilos contenido fin */
+
+/* ! responsive = celulares pequeños */
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .app-footer {
+        text-align: center;
+    }
+}
+
+/* ! responsive = celulares normales */
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .app-footer {
+        text-align: center;
+    }
+}
+
+/* ! responsive = tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .app-footer {
+        text-align: end;
+    }
+}
+
+/* ! responsive = pantallas chicas */
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .app-footer {
+        text-align: end;
+    }
+}
+
+/* ! responsive = laptops */
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+    .app-footer {
+        text-align: end;
+    }
+}
+
+/* ! responsive = pantallas grandes */
+
+@media screen and (min-width: 1025px) and (max-width: 1328px) {
+    .app-footer {
+        text-align: end;
+    }
+}
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1329px) and (max-width: 3840px) {
+    .app-footer {
+        text-align: end;
+    }
+}
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 2560px) {
+    .app-footer {
+        text-align: end;
+    }
+}

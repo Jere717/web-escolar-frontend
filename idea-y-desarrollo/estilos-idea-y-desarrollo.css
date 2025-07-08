@@ -1,0 +1,324 @@
+/* # codigo variado */
+
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+span {
+    color: #256ed3;
+    display: block;
+    margin-top: 1rem;
+}
+
+header {
+    background: hsla(135.44deg 78.16% 34.12%);
+    background: linear-gradient(90deg, hsla(135.44deg 78.16% 34.12%) 0%, hsla(28.57deg 100% 50.59%) 100%);
+    background: -moz-linear-gradient(90deg, hsla(135.44deg 78.16% 34.12%) 0%, hsla(28.57deg 100% 50.59%) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(135.44deg 78.16% 34.12%) 0%, hsla(28.57deg 100% 50.59%) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F3F520", endColorstr="#1E8449", GradientType=1 );
+}
+
+header img {
+    margin-top: 1rem;
+    width: 8rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+/* Proximamente */
+/* .footer-grass::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: url('../public/images/cesped (1).webp') repeat-x;
+    background-size: auto 100%;
+} */
+
+footer {
+    background: #139b36;
+}
+
+/* # fin codigo variado */
+
+/* # main */
+
+.main {
+    grid-area: main;
+    background-color: #f5f5f5;
+    padding: 0.2rem;
+}
+
+.main .group-1 p {
+    padding-top: 0.5rem;
+}
+
+.main h1 {
+    border-bottom: solid 1rem #cfe5d6;
+    font-family: cursive, sans-serif, serif;
+    text-align: center;    background: linear-gradient(90deg, hsla(145, 63%, 32%, 1), #9acd32, hsla(145, 63%, 32%, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1rem;
+}
+
+#colaboradores {
+    display: flex;
+    flex-direction: column;
+}
+
+#con-desarrollador {
+    background-color: #d1d362;
+}
+
+#con-cooperadora {
+    background-color: #31adc5;
+    width: 100%;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    min-height: 200px;
+}
+
+.div-img {
+    flex: 0 0 auto;
+}
+
+.div-texto {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main img {
+    max-width: 5rem;
+    margin-right: 10px;
+    border-radius: 1rem;
+    position: relative;
+    top: 13%;
+}
+
+/* # fin main */
+
+/* # grid */
+
+.grid-container {
+    display: grid;
+    grid-template:
+        "header" 220px
+        "main" auto
+        "footer" 150px
+    ;
+}
+
+/* ! responsive = celulares pequeños */
+
+@media screen and (min-width: 0px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 1.9rem;
+    }
+
+    header img {
+        width: 7.7rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = clelulares normales */
+
+@media screen and (min-width: 375px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 2.4rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = tablets */
+
+@media screen and (min-width: 481px) {
+
+    .main {
+        padding: 2rem;
+    }
+
+    .header .group-2 h1, .main h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas chicas */
+
+@media screen and (min-width: 769px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 2.7rem;
+    }
+
+    header img {
+        width: 8rem;
+    }
+    
+    #colaboradores {
+        flex-direction: row;
+    }
+
+    .div-texto {
+        max-width: 80%;
+        margin-right: 1rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = laptops */
+
+@media screen and (min-width: 861px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 2.8rem;
+    }
+
+    .main p, header a {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    header img {
+        width: 8.5rem;
+        margin-top: 1rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes */
+
+@media screen and (min-width: 1024px) {
+
+    .grid-container {
+        display: grid;
+        grid-template:
+            "header" 350px
+            "main" auto
+            "footer" 150px
+        ;
+    }
+
+    .header .group-2 h1, .main h1 {
+        font-size: 2.9rem;
+    }
+
+    .main p, header a {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    header img {
+        width: 12rem;
+        margin-top: 2rem;
+    }
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1329px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 3.4rem;
+    }
+
+    .main p, header a {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1900px) {
+
+    .header .group-2 h1, .main h1 {
+        font-size: 4.5rem;
+    }
+
+    .main p, header a {
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+    }
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 2560px) {
+
+    .grid-container {
+        display: grid;
+        grid-template:
+            "header" 380px
+            "main" auto
+            "footer" 380px
+        ;
+    }
+
+    .header .group-2 h1, .main h1 {
+        font-size: 7rem;
+    }
+
+    .main p, header a {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+}
+
+
+/* ! ---- */
+
+/* # fin grid */

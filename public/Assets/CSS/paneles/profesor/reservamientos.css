@@ -1,0 +1,177 @@
+#header-calendario {
+    text-align: center;
+}
+
+#reservamientos-calendario h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#reservamientos-calendario {
+    padding: 1rem;
+}
+
+#reservamientos-calendario #nombre-profesor {
+    margin-bottom: 1rem;
+}
+
+/* Estilo general para el selector */
+#month-selector {
+    padding: 10px 15px; /* Espaciado interno para mejor usabilidad */
+    font-size: 16px; /* Tamaño de fuente legible */
+    border: 1px solid #ccc; /* Borde del selector */
+    border-radius: 5px; /* Bordes redondeados */
+    appearance: none; /* Quitar el estilo predeterminado del navegador */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasa sobre el selector */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+    width: 200px; /* Ancho del selector */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transición suave para efectos */
+}
+
+/* Estilo para el borde al pasar el ratón sobre el selector */
+#month-selector:hover {
+    border-color: #888; /* Color del borde al pasar el ratón */
+}
+
+/* Estilo para el borde al enfocar el selector */
+#month-selector:focus {
+    border-color: #0056b3; /* Color del borde al enfocar */
+    outline: none; /* Quitar el contorno predeterminado del navegador */
+    box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2); /* Sombra al enfocar */
+}
+
+/* Opciones del selector */
+#month-selector option {
+    padding: 10px; /* Espaciado interno en las opciones */
+}
+
+/* Estilos generales del modal */
+.custom-modal-header {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+    background: linear-gradient(120deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+    border-radius: 10px 10px 0 0;
+    box-shadow: inset 0 0 15px rgba(0, 255, 255, 0.5), inset 0 0 20px rgba(255, 0, 255, 0.5);
+    overflow: hidden;
+}
+
+.custom-modal-title {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    color: #00ffff;
+    letter-spacing: 3px;
+    z-index: 1;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(255, 0, 255, 0.9);
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.custom-modal-title:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 15px rgba(255, 0, 255, 0.9), 0 0 25px rgba(0, 255, 255, 1);
+}
+
+.custom-close:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* Fondo animado para el modal */
+.custom-modal-dialog {
+    background: linear-gradient(145deg, #2a2d34, #1c1e23);
+    border: 2px solid #00ffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-modal-dialog::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(60deg, rgba(0, 255, 255, 0.3), rgba(255, 0, 255, 0.3));
+    animation: gradient-animation 5s infinite linear;
+    z-index: -1;
+}
+
+@keyframes gradient-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Estilos para los eventos con fondo futurista fijo */
+#eventsList li {
+    position: relative;
+    background-color: #1e1e24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(45deg, #00ffff, #ff00ff); /* Fondo futurista fijo */
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5), 0 0 30px rgba(0, 0, 255, 0.7), 0 0 40px rgba(255, 0, 255, 0.9); /* Efecto de luces neón fijo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover solo muestra el mensaje "Ver detalles épicos" */
+#eventsList li:hover {
+    transform: translateY(-5px); /* Sutil animación al pasar el cursor */
+}
+
+#eventsList li:hover::after {
+    content: '👁️'; /* Mensaje al pasar el cursor */
+    position: absolute;
+    right: 10px;
+    color: #00ffff;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+}
+
+/* Detalles del evento con fondo futurista */
+#eventDetails {
+    font-size: 1.1rem;
+    background-color: #1c1e23;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    background: linear-gradient(120deg, #00ffff, #ff00ff);
+    animation: pulse 2s infinite;
+}
+
+/* Animación de pulso para los detalles del evento */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(255, 0, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(255, 0, 255, 0.8);
+    }
+}
+
+#equipos_disponibles {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#equipos_disponibles p {
+    color: #008fff;
+}

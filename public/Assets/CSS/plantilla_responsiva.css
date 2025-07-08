@@ -1,0 +1,92 @@
+/* ! responsive = celulares pequeños */
+
+@media screen and (min-width: 0px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = clelulares normales */
+
+@media screen and (min-width: 375px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = tablets */
+
+@media screen and (min-width: 481px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas chicas */
+
+@media screen and (min-width: 769px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = laptops */
+
+@media screen and (min-width: 861px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes */
+
+@media screen and (min-width: 1024px) {
+
+
+
+}
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1329px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 1900px) {
+
+
+
+}
+
+
+/* ! ---- */
+
+/* ! responsive = pantallas grandes tv */
+
+@media screen and (min-width: 2560px) {
+
+
+
+}
+
+
+/* ! ---- */
