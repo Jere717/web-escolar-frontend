@@ -20,7 +20,7 @@ Este proyecto es el frontend del sitio web de la Escuela Agrotécnica 717, ubica
 
 1. Clona este repositorio en la carpeta `htdocs` de XAMPP:
    ```bash
-   git clone https://github.com/tu-usuario/web-escolar-frontend.git
+   git clone https://github.com/Jere717/web-escolar-frontend.git
    ```
 2. Inicia XAMPP y asegúrate de que Apache esté corriendo.
 3. Accede a `http://localhost/web-escolar-frontend/` en tu navegador.
